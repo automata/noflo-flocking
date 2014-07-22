@@ -1,0 +1,15 @@
+{
+  "name": "noflo-flocking",
+  "description": "NoFlo components to FlockingJS.",
+  "author": "Vilson Vieira <vilson@void.cc>",
+  "repo": "vilson/noflo-flocking",
+  "version": "0.1.0",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
