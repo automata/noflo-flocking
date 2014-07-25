@@ -1,17 +1,18 @@
 noflo = require 'noflo'
+flock = require '../vendor/flocking-all.min'
 
 exports.getComponent = ->
   c = new noflo.Component
 
-  c.icon = 'cog'
+  c.icon = 'music'
 
-  c.description = 'Create an environment to play received SynthDefs and Patterns'
+  c.description = 'Create an environment to play received SynthDefs'
 
   c.inPorts.add 'play',
     datatype: 'bang'
     process: (event, payload) ->
       return unless event is 'data'
-      console.log 'FLOCK', flock
+      console.log 'Flock?', flock
       flock.enviro.shared.play()
 
   c

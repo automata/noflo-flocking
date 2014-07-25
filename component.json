@@ -10,6 +10,7 @@
   },
   "scripts": [
     "index.js",
+    "vendor/flocking-all.min.js",
     "components/Environment.coffee"
   ],
   "json": [
