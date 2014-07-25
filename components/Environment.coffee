@@ -1,5 +1,4 @@
 noflo = require 'noflo'
-flock = require '../vendor/flocking-all.min.js'
 
 exports.getComponent = ->
   c = new noflo.Component
