@@ -6,11 +6,12 @@
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {
-    "noflo/noflo": "*"
+    "noflo/noflo": "*",
+    "components/jquery": "2.1.1"
   },
   "scripts": [
     "index.js",
-    "vendor/flocking-all.min.js",
+    "vendor/flocking-no-jquery.js",
     "components/Environment.coffee"
   ],
   "json": [
